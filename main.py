@@ -134,6 +134,13 @@ def MD_nRE(y, y_hat, n, p):
      
 	loss = (y**(1 / n) - y_hat**(1 / n))**p
 	print(loss)    
+
+
+
+
+
+     
+
 if __name__ == "__main__":
     # Thực nghiệm bài 1.
     evaluate_classification(tp = 3, fp = 1 ,fn = 4)
@@ -155,5 +162,6 @@ if __name__ == "__main__":
     #Thực nghiệm bài 5:
     MD_nRE(50, 49.5, 2, 1)
     
+
 
 
